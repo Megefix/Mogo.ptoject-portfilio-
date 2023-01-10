@@ -149,7 +149,7 @@ body {
   margin-left: 50px;
 }
 .continuacion__text {
-  width: 1104px;
+  width: 1024px;
   font-family: "Roboto";
   font-style: normal;
   font-weight: 400;
@@ -287,7 +287,114 @@ body {
   color: #ffffff;
 }
 @media screen and (max-width: 426px) {
+  .continuacion__text {
+    width: auto;
+  }
+  .header {
+    margin-left: 12px;
+    height: 10em;
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column-reverse;
+    align-items: flex-start;
+  }
   .header__list {
-    margin-left: 30px;
+    justify-content: flex-start;
+    margin-left: 10px;
+  }
+  .header__title {
+    margin-top: 5px;
+    margin-left: 155px;
+  }
+  .header__line {
+    margin-left: 20px;
+  }
+  .header__item {
+    margin-left: 10px;
+    display: flex;
+    justify-content: flex-start;
+  }
+  .container__start {
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .block {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .Collection {
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    flex-direction: column;
+    margin-bottom: 45px;
+  }
+  .block__1 {
+    margin-left: 28px;
+    margin-bottom: 50px;
+  }
+  .block__2 {
+    margin-left: 10px;
+    margin-top: 70px;
+  }
+  .photo__img {
+    width: 180px;
+    height: 220px;
+  }
+  .photo__img1 {
+    width: 180px;
+    height: 220px;
+  }
+  .continuacion__text {
+    width: auto;
+  }
+  .photos {
+    margin-left: 0;
+    width: auto;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+  }
+  .image {
+    width: 27.8px;
+    height: 27px;
+  }
+  .container__item {
+    margin-top: 60px;
+  }
+  .pages {
+    display: flex;
+    flex-direction: column;
+    margin-left: 40px;
+  }
+  .photos {
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    text-align: center;
+    margin-left: 75px;
+  }
+  .main__line {
+    width: auto;
+    margin-top: 300px;
+  }
+  .footer {
+    margin-left: 10px;
+    margin-top: 60px;
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  .footer__title {
+    margin: 0 auto;
+  }
+  .continuacion__text {
+    margin-right: 115px;
+  }
+  .lastone {
+    margin-top: 30px;
+    margin-left: 15px;
   }
 }
