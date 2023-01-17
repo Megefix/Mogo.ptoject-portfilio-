@@ -94,10 +94,8 @@ body {
   margin-top: 35px;
 }
 .block__1 {
-  width: 300px;
-  height: 20px;
-  margin-left: 120px;
-  margin-top: 50px;
+  margin-left: 20px;
+  margin-top: 100px;
   margin-right: 50px;
 }
 .image {
@@ -146,7 +144,6 @@ body {
 }
 .block__2 {
   margin-top: 100px;
-  margin-left: 50px;
 }
 .continuacion__text {
   width: 1024px;
@@ -162,7 +159,7 @@ body {
 }
 /*Photos*/
 .photos {
-  margin-left: 120px;
+  margin-left: 20px;
   margin-top: 40px;
 }
 .photo__img {
@@ -212,10 +209,10 @@ body {
   margin-top: 10px;
 }
 .main__line {
-  width: 1200px;
+  width: 1260px;
   height: 1px;
   border: 1px solid #b6b6b6;
-  margin-left: 135px;
+  margin-left: 2%;
   margin-top: 80px;
 }
 /*Footer*/
@@ -233,7 +230,7 @@ body {
   line-height: 17px;
   text-align: center;
   color: #333333;
-  margin-left: 150px;
+  margin-left: 40px;
   margin-top: 20px;
 }
 .footer__spacial {
@@ -265,7 +262,7 @@ body {
 .lastone {
   display: flex;
   justify-content: space-between;
-  margin-right: 15px;
+  margin-right: 3%;
 }
 .label {
   font-family: "Roboto";
@@ -291,7 +288,7 @@ body {
     width: auto;
   }
   .header {
-    margin-left: 20px;
+    margin-left: 8px;
     display: flex;
     justify-content: flex-start;
     flex-direction: column-reverse;
@@ -396,5 +393,44 @@ body {
   .lastone {
     margin-top: 30px;
     margin-left: 15px;
+  }
+}
+@media screen and (max-width: 769px) {
+  .header__list {
+    margin-left: 90%;
+    margin-top: 3%;
+  }
+  .header {
+    justify-content: space-between;
+    margin-left: 15%;
+  }
+  .spacial {
+    font-size: 20px;
+  }
+  .header__link {
+    font-size: 20px;
+  }
+  .header__line {
+    margin-left: 90%;
+    width: 70px;
+  }
+  .container__start {
+    margin-left: 50%;
+  }
+  .Collection {
+    margin-left: 50%;
+  }
+  .continuacion__text {
+    margin-left: 10%;
+  }
+  .photos {
+    margin-left: 60%;
+  }
+  .main__line {
+    display: none;
+  }
+  .lastone {
+    margin-left: 90%;
+    margin-top: 5%;
   }
 }
